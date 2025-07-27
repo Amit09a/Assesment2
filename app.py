@@ -9,8 +9,8 @@ import requests
 st.title("📊 Stock Portfolio Analysis Dashboard")
 
 # Load data
-xirr_df = pd.read_csv("/Users/amit/PycharmProjects/Assignment2/xirr_summary (1).csv")
-portfolio_df = pd.read_csv("/Users/amit/PycharmProjects/Assignment2/portfolio_value.csv")
+xirr_df = pd.read_csv("xirr_summary (1).csv")
+portfolio_df = pd.read_csv("portfolio_value.csv")
 
 # Format date
 portfolio_df['Date'] = pd.to_datetime(portfolio_df['Date'])
