@@ -57,7 +57,7 @@ symbol_to_name = {
 }
 
 # Your NewsAPI Key
-NEWSAPI_KEY = "daaedb01dced4e60b1e6de97cc4cda32"
+NEWSAPI_KEY = "65a9d0c3d6c247d4844b903626753794"
 
 # Function to fetch news
 def get_news(company_name, api_key):
