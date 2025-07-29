@@ -10,7 +10,7 @@ st.title("📊 Stock Portfolio Analysis Dashboard")
 
 # Load data
 xirr_df = pd.read_csv("xirr_summary (1).csv")
-portfolio_df = pd.read_csv("portfolio_value.csv")
+portfolio_df = pd.read_csv("portfolio_filled (1).csv")
 
 # Format date
 portfolio_df['Date'] = pd.to_datetime(portfolio_df['Date'])
